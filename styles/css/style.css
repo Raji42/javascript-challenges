@@ -1,0 +1,31 @@
+.container-1{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+
+.flex-box-container-1{
+    border: 1px solid rgb(255, 8, 132);
+    display:flex;
+    padding: 10;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+
+}
+
+.flex-box-container-1 div{
+    display:flex;
+    padding:10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+    color: orange;
+}
