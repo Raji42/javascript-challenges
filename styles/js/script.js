@@ -15,5 +15,9 @@ function reset() {
   }
   
 
-
-
+// challenge 2
+function generateCat() {
+   var Catdiv = document.createElement('div');
+   Catdiv.innerHTML ="<img class='cat-image' src='http://thecatapi.com/api/images/get?format=src&type=gif&size=small'>";
+   document.getElementById('flex-cat-gen').appendChild(Catdiv);
+}

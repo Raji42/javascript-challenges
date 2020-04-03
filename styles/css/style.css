@@ -26,6 +26,25 @@
 }
 
 body{
-    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+ 
     color: orange;
+}
+
+.container-2{
+    border: 1px solid red;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-2{
+    display: flex;
+    border:1px solid salmon;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.flex-box-container-2 img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
 }
