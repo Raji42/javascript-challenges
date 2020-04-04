@@ -26,18 +26,18 @@
 }
 
 body{
- 
+    background-color: azure;
     color: orange;
 }
 
-.container-2{
+.container-2,.container-3{
     border: 1px solid red;
     width: 75%;
     margin: 0 auto;
     text-align: center;
 }
 
-.flex-box-container-2{
+.flex-box-container-2,.flex-box-rps{
     display: flex;
     border:1px solid salmon;
     flex-wrap: wrap;
@@ -47,4 +47,10 @@ body{
 .flex-box-container-2 img{
     margin: 10px;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+    margin: 10px;
+
 }
